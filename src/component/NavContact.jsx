@@ -21,8 +21,8 @@ function NavContact() {
             <Nav className="me-auto">
             
 
-            <Nav.Link as={Link} to={'/'} className=' active nav-link' ></Nav.Link>
-              <Nav.Link as={Link} to={'/project'} className=' active nav-link' >Latest project</Nav.Link>
+            
+              <Nav.Link as={Link} to={'/project'} className=' active nav-link'  >Latest project</Nav.Link>
               
             </Nav>
             <Nav className="ms-auto">

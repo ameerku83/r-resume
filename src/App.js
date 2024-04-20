@@ -15,9 +15,10 @@ function App() {
 
     <BrowserRouter>
     <NavContact/>
-    
+    <Home/>
+   
     <Routes>
-       <Route path='/' element={<Home/>} />
+   
       <Route path='/project' element={<LatestProjects/>} />
       <Route path='/login' element={<Login/>} />
       
