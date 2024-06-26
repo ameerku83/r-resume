@@ -13,20 +13,19 @@ function NavContact() {
     return (
       <>
       
-        <Navbar expand="lg" className="bg-body-teriary position-fixed w-100">
+        <Navbar expand="lg" className=" position-fixed w-100  ">
         <Container >
-          <Navbar.Brand style={{fontSize:25}} as={Link} to={"/"} >HAMEER KU</Navbar.Brand>
+          <Navbar.Brand style={{fontSize:25,cursor:'pointer' }} as={Link} to={'/r-resume'} >HAMEER KU</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-            
+             
 
             
-              <Nav.Link as={Link} to={'/project'} className=' active nav-link'  >Latest project</Nav.Link>
               
             </Nav>
             <Nav className="ms-auto">
-              <Nav.Link as={Link} to={'/login'} className=' active nav-link'>Log in</Nav.Link>
+              <Nav.Link as={Link} to={'/login'} className=' active nav-link'>Sign up</Nav.Link>
               
               
             </Nav>

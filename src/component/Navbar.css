@@ -1,17 +1,16 @@
 Nav {
+ 
     font-size: 20px;
     font-weight: 600;
-    border-radius: 17px;
-    background-color: rgb(129, 235, 238);
+   background-color:gold;
+    
+   
 }
 
 
 
-Nav .Link{
-    background-color: blue;
-}
 .nav-link:hover{
-background-color:rgb(255, 255, 255); 
-border-radius: 20px;
-font-size:23px;
+width: fit-content;
+text-decoration: underline;
+font-size:20px;
 }

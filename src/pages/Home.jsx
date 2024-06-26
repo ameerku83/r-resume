@@ -1,6 +1,7 @@
 
 import React from 'react'
 import {Container,Row,Col} from 'react-bootstrap';
+import LatestProjects from '../component/LatestProjects';
 const Home = () => {
   return (
     <>
@@ -22,16 +23,58 @@ const Home = () => {
           </Col>
           <Col md={8} style={{marginTop:70}} className=' text-center align-content-center' >
           <h2> FULL STACK WEB DEVELOPER</h2>
-       <h3 >“Creative full stack developer with a strong history of project management and building applications.”</h3>
+       <h4 >“Aspiring Full Stack developer with strong foundation in MongoDB,Node.js,React.Creating dynamic and responsive web applications”</h4>
 
         
           </Col>
         </Row>
         </Container>
+        <Container>
+        <Row  className="mt-3" >
+          <Col lg={4} md={4}  className='shadow' >
+           <h2 className=' text-center'>Experience</h2>
+            <ul>
+              <li>
+              <p>Internship in Entry</p>
+
+              </li>
+            </ul>
+
+         
+          </Col>
+          <Col lg={4} md={4}  className='shadow' >
+          <h2 className=' text-center'>Education</h2>
+          <ul>
+              
+              <li>Diploma in Civil Engeneering</li>
+              <li>Plus two</li>
+
+              
+            </ul>
+        
+          </Col>
+          <Col lg={4} md={4} className='shadow' >
+          <h2 className=' text-center'>Skills</h2>
+          <ul>
+              
+              <li> React </li>
+              <li>Node.js</li>
+              <li>MongoDB</li>
+              <li>Zustand and Redux state management library</li>
+              <li>React-bootstrap,mui frame works</li>
+
+              
+            </ul>
+        
+          </Col>
+        </Row>
+        </Container>
        </div>
-       <Container className=' justify-content-center' >
-     
-       </Container>
+
+       <LatestProjects/>
+
+      
+      
     </>
   )
 }

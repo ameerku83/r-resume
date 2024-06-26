@@ -5,9 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import NavContact from './component/NavContact';
 import Footer from './component/Footer';
-import LatestProjects from './pages/LatestProjects';
-import Login from './pages/Login';
+
+import Login from './component/Login';
 import Home from './pages/Home';
+import LatestProjects from './component/LatestProjects';
 
 
 function App() {
@@ -15,14 +16,14 @@ function App() {
 
     <BrowserRouter>
     <NavContact/>
-    <Home/>
+   
    
     <Routes>
-   
-      <Route path='/project' element={<LatestProjects/>} />
+      
+      <Route path='/r-resume' element={<Home/> } />
       <Route path='/login' element={<Login/>} />
       
-      <Route/>
+      
     </Routes>
     <Footer/>
     </BrowserRouter>

@@ -3,21 +3,18 @@
 
 .fa-instagram:hover{
    
-    width: 30px;
-    height: 32px;
+   
     border-radius: 7px;
    background:linear-gradient(45deg,orange,rgb(255, 119, 0),rgb(234, 0, 255),rgb(114, 39, 220));
   
 }
-.fa-telegram:hover {
-    width: 30px;
-    height: 32px;
+.fa-linkedin:hover {
+   
     border-radius: 7px;
-   background-color:  rgba(9, 169, 209, 0.741);
+   background-color:  rgba(0, 68, 255, 0.97);
 }
 .fa-github:hover{
-    width: 30px;
-    height: 32px;
+   
     border-radius: 7px;
    background-color:  rgb(32, 52, 84);
    
