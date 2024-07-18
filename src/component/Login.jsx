@@ -110,7 +110,7 @@ const[show,setShow]=useState(false)
          
             <input type={show?"text":"password"} name='passwordmatch' placeholder='conform your password' onChange={onChangeHandler}/>
             <span> {errors?.passwordmatch ?? ''} </span>
-            <button className='btn btn-primery'>Sign up</button>
+            <button className='btn btn-primary'>Sign up</button>
         </form>
       </div>
       </Col>
